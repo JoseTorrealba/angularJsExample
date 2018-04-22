@@ -6,7 +6,7 @@
         .config(['$routeProvider', function($routeProvider) {
 
             $routeProvider.when('/', {
-                    templateUrl: '/client/src/example.html',
+                    templateUrl: '/src/client/src/example.html',
                     controller: 'initController',
                     controllerAs: 'vm',
                     title: 'bind to controller',
