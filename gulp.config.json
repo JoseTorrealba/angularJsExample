@@ -23,7 +23,7 @@
     "images": [
         "./src/client/content/images/**/*"
     ],
-    "build": "./build/",
+    "build": "./src/main/webapp/build/",
     "report": "./report/",
     "vendorjs": [
         "./bower_components/jquery/dist/jquery.js",
@@ -39,6 +39,7 @@
     "vendorcss": [
         "./bower_components/bootstrap/dist/css/bootstrap.min.css",
         "./bower_components/font-awesome/css/font-awesome.min.css",
-        "./bower_components/toastr/toastr.css"
+        "./bower_components/toastr/toastr.css",
+        "./bower_components/angular-ui-select/dist/select.min.css"
     ]
 }
