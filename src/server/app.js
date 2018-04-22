@@ -35,7 +35,7 @@ app.get('/ping', function(req, res, next) {
     res.send('pong');
 });
 
-app.use('/', express.static('./src/client/'));
+app.use('/', express.static('./build'));
 app.use('/', express.static('./'));
 
 app.listen(port, function() {
