@@ -23,7 +23,7 @@
     "images": [
         "./src/client/content/images/**/*"
     ],
-    "build": "./src/main/webapp/build/",
+    "build": "./build/",
     "report": "./report/",
     "vendorjs": [
         "./bower_components/jquery/dist/jquery.js",
